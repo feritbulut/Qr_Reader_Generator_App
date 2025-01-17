@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
+             x:Class="MyQrApp.reader"
+             Title="reader"
+             BackgroundColor="DarkGrey">
+    <VerticalStackLayout>
+    <zxing:CameraBarcodeReaderView
+        x:Name="barcodereader"
+        HeightRequest="200"
+        WidthRequest="350"
+        Margin="0,150,0,0"
+        VerticalOptions="StartAndExpand"
+        BarcodesDetected="barcodereader_BarcodesDetected"/>
+
+    <Label
+        x:Name="ResultLabel"
+        Text="Scan the code to the camera"
+        FontSize="20"
+        FontAttributes="Bold"
+        Margin="0,150,0,0"
+        TextColor="White"
+        HorizontalOptions="Center"
+        VerticalOptions="End"/>
+    </VerticalStackLayout>
+</ContentPage>

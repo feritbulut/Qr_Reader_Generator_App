@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyQrApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            
+            <Image
+                Source="scan.png"
+                HeightRequest="200"
+                WidthRequest="200"
+                Margin="0,100,0,0"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"/>
+
+            <Button
+                x:Name="Generatecodebtn"
+                BackgroundColor="#1e3799"
+                Text="Generate code" 
+                Margin="0,50,0,0"
+                Clicked="Generatecodebtn_Clicked"
+                HorizontalOptions="Fill"
+                VerticalOptions="CenterAndExpand"/>
+
+            <Button
+                x:Name="Readcodebtn"
+                BackgroundColor="#1e3799"
+                Text="Read the code" 
+                Clicked="Readcodebtn_Clicked"
+                HorizontalOptions="Fill"
+                VerticalOptions="CenterAndExpand"/>
+            <Label
+                Text="This app build by Ferit Bulut."
+                FontSize="20"
+                TextColor="Turquoise"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

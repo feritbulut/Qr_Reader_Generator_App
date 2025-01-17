@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyQrApp", "MyQrApp\MyQrApp.csproj", "{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B9E686-20DC-4BC3-AB0F-96443BEE1720}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {678D3A84-0070-4266-91BB-62F844EA6AE2}
+	EndGlobalSection
+EndGlobal
